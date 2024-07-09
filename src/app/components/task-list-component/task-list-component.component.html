@@ -2,7 +2,7 @@
 <app-task-form-component (addtask)="addTask($event)" />
 
 @for (item of task; track $index) {
-  <app-task-item-component [newTask]="item" />
+  <app-task-item-component [newTask]="item" style="float:left;"/>
 
 }
 
